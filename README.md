@@ -209,4 +209,11 @@ Any contributions you make are **greatly appreciated**.
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+### Additional Tips
+
+- If you encounter any issues, check your terminal for error messages and verify your `.env` settings.
+- Ensure that the XAMPP services (Apache and MySQL) are running while you work on the project.
+- Use Google or Stack Overflow for any errors or questions you may have.
+- Refer to the [Laravel documentation](https://laravel.com/docs) for detailed information on Laravel features and usage.
+- Text me if you have any questions or need help with the project.
 
