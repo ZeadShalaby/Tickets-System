@@ -17,8 +17,7 @@
     <br/>
   </p>
   
-![Forks](https://img.shields.io/github/forks/ZeadShalaby/Tickets-System?style=social) ![Issues](https://img.shields.io/github/issues/ZeadShalaby/Tickets-System ![License](https://img.shields.io/github/license/ZeadShalaby/Tickets-System)
-
+![Forks](https://img.shields.io/github/forks/ZeadShalaby/Tickets-System?style=social) ![Issues](https://img.shields.io/github/issues/ZeadShalaby/Tickets-System) ![License](https://img.shields.io/github/license/ZeadShalaby/Tickets-System)
 
 ## Table Of Contents
 
