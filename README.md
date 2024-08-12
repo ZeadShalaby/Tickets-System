@@ -8,11 +8,11 @@
     
   </a>
 
-<h3 align="center"> Simple-To-Do-List-Application </h3>
-<h3 align="center"> it's a project can restore tasks and filter it , Login with username || Gmail  </h3>
+<h3 align="center"> Tickets-System </h3>
+<h3 align="center"> it's a project use Soft delete Tickets and filter it , Login with username || Gmail  </h3>
 
   <p align="center">
-     Project Simple-To-Do-List-Application
+     Project Tickets-System
     <br/>
     <br/>
   </p>
@@ -55,7 +55,6 @@ about what you should do next. Even better, use a simple tasks list template, al
 **Containerization Service:** Docker
 
 **Miscellaneous:** Github
-Actions, [Build and push Docker images](https://github.com/marketplace/actions/build-and-push-docker-images), [Docker Login](https://github.com/marketplace/actions/docker-login)
 
 
 ## Getting Started
@@ -63,12 +62,6 @@ Actions, [Build and push Docker images](https://github.com/marketplace/actions/b
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-* npm
-
-```sh
-npm install npm@latest -g
-```
 
 * laravel
 
@@ -91,7 +84,7 @@ https://github.com/ZeadShalaby/Simple-To-Do-List-Application
 Go to the project directory
 
 ```bash
-  cd Simple-To-Do-List-Application
+  cd Tickets-System
 ```
 
 Install dependencies
@@ -157,10 +150,6 @@ Start the server and run watch
     php artisan serve
 ```
 
-```bash
-    npx run watch
-````
-
 or alternatively run the .bat
 
 ```bash
@@ -172,38 +161,19 @@ go to the following route
 ```
     http://127.0.0.1:8000/
 ```
-
-### Running via container
-
-pull the image 
-
-```
-docker pull zeadshalaby/tdl
-``` 
-
- run the container
-
- ```
- docker run --name tsm -p 8000:8000 -d zeadshalaby/tsm
- ```
  
- connect to Container Terminal
- 
- ```
- docker exec -it tsm /bin/sh
- ```
- 
- make the migrations to update the database
-
-```bash
-    php artisan migrate
-```
-
- go to the following page
- ```
- <container-ip>:8000
- ``` 
 ## postman-ccollection
+
+1. **Import the Postman Collection**:
+   - Open Postman.
+   - Click on "Import" and upload the `Tickets.postman_collection.json` file.
+
+2. **Set Base URL in Postman**:
+   - Click on "Environments" and create a new environment.
+   - Set a variable `baseUrl` to `http://127.0.0.1:8000`.
+
+3. **Send Requests**:
+   - Select the imported collection and run the requests to test the API endpoints.
 
 ## Contributing
 
