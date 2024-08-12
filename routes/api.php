@@ -72,7 +72,7 @@ Route::group(['middleware' => ['api']], function () {
         Route::GET('/retrieve/tickets/trashed', [TicketsController::class, 'restoreindex']);
         Route::POST('/restore/tickets', [TicketsController::class, 'restore']);
         Route::GET('/auto/complete/search', [TicketsController::class, 'autocolmpletesearch']);
-
+       // sfs
     });
     });
     //?end//
