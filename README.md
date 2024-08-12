@@ -4,7 +4,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/ZeadShalaby/Simple-To-Do-List-Application">
-          <img src="https://imgur.com/7HSpOZf.png?w=1600" alt="Logo" width="550" height="350">
+          <img src="https://imgur.com/7HSpOZf.png?w=1600" alt="Logo" width="560" height="340">
     
   </a>
 
